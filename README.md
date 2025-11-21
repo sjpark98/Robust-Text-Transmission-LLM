@@ -65,7 +65,7 @@ def def_param():
 
 You can run the main simulation script to evaluate the proposed model's performance.
 
-**Note:** The simulation is currently configured to perform a comparative experiment between the **Proposed Map (ICE)** and a **Random Map** baseline. This allows you to directly observe the performance gains achieved by the importance score-based selection strategy.
+**Note:** The simulation is currently configured to perform a comparative experiment between the **Proposed Filter** and a **Random Filter** baseline. This allows you to directly observe the performance gains achieved by the importance score-based selection strategy.
 
 ```bash
 python main.py
