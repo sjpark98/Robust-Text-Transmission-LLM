@@ -7,11 +7,11 @@ https://ieeexplore.ieee.org/document/11112524
 
 ## 📄 Abstract
 
-This project proposes a novel text transmission model that selects and transmits only a few critical characters and recovers the missing characters at the receiver using a Large Language Model (LLM). We introduce a novel **Importance Character Extractor (ICE)**, which strategically selects transmitted characters to maximize the recovery performance of the LLM.
+This project proposes a novel text transmission model that selects and transmits only a few critical characters and recovers the missing characters at the receiver using a Large Language Model (LLM). We introduce a novel **Important Character Extractor (ICE)**, which strategically selects transmitted characters to maximize the recovery performance of the LLM.
 
 Key features:
 
-  - **ICE (Importance Character Extractor):** Selects characters based on importance scores to minimize ambiguity.
+  - **ICE (Important Character Extractor):** Selects characters based on importance scores to minimize ambiguity.
   - **LLM-based Recovery:** Uses GPT-3.5 Turbo to reconstruct the full text from punctured inputs.
   - **Robustness:** Demonstrates robust performance across different datasets and tasks compared to traditional and semantic communication models.
 
